@@ -1,0 +1,143 @@
+:root{
+    --blanco: #ffffff;
+    --titulos_secundarios: #6bdd1f;
+    --gris_de_fondo: #6c6c6c;
+    --contenidos: #5b3ba1;
+    --botones: #0b83d4;
+    --estilos: #fcbd2c;
+}
+
+
+/* Estilos personalizados para el pie de página pegajoso */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Mínimo 100% de altura de la ventana */
+    line-height: 1.6;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+ /* contenedor padre */
+.boton{
+    background-color: var(--botones);
+    color: var(--blanco);
+    text-decoration: none;
+    padding: 1.5rem 3rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    border-radius: 1rem;
+}
+
+.boton:hover{
+    background-color: var(--gris_de_fondo);
+    color: #000000;
+}
+
+ /* contenedor de tarjeta */
+ .container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 9px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.32s;
+}
+
+/* contenedor con movimiento (hover) */
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* contenedor de tarjeta de imagen */
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+/* contendor para el H4 Y H1 del nombre */
+.container .card h4{
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+
+
+h1{
+    font-family: 'Playfair Display', serif;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+}
+
+/* h3{
+    color: white;
+} */
+
+/* contenedor del Parrafo */
+.container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* contenedor de (a) */
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498bd;
+}
+
+/* titulo de navegador */
+.navbar-brand{
+    font-family: 'Playfair Display', serif;
+}
+
+/* ocultar texto para reproducir */
+.texto-modal-oculto {
+    display: none;
+}
+
+/* para el carrusel de fondo */
+#carruselFondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+}
+
+#carruselFondo img {
+    width: 100%;
+    height: 100%;
+    animation: cambioImagenes 4.5s infinite;
+}
+
+/* Animación para cambiar las imágenes */
+@keyframes cambioImagenes {
+    0%, 100% {
+        opacity: 0;
+    }
+    30%, 70% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+

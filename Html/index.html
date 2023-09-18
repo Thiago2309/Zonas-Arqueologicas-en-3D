@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Catalago</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- link de css -->
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="icon" href="/img/icono2.png" type="image/png">
+
+</head>
+
+<body>
+
+  <main>
+    <div class="fondo" style="position: relative;">
+        <!-- Carrusel de imágenes de fondo -->
+        <div id="carruselFondo" class="carrusel">
+            <img src="/img/fondoZ.jpeg" alt="imagen de fondo principal" class="imagen-carrusel">
+            <img src="/img/fondo.jpg" alt="imagen de fondo" class="imagen-carrusel">
+            <img src="/img/fondo1.jpg" alt="imagen de fondo 1" class="imagen-carrusel">
+            <img src="/img/fondoT.jpeg" alt="imagen de fondo tulum" class="imagen-carrusel">
+            <img src="/img/fondo2.jpg" alt="imagen de fondo 2" class="imagen-carrusel">
+            <img src="/img/fondo3.jpg" alt="imagen de fondo 3" class="imagen-carrusel">
+            <img src="/img/fondo4.jpg" alt="imagen de fondo 4" class="imagen-carrusel">
+            <img src="/img/fondo5.jpg" alt="imagen de fondo 5" class="imagen-carrusel">
+        </div>
+
+        <!-- Imagen de fondo -->
+        
+    
+        <!-- Logo superpuesto -->
+        <a class="navbar-brand" style="position: absolute; top: 20px; left: 20px;">
+            <img src="/img/ut.png" alt="Logo" width="200" height="100">
+        </a>
+
+        <!-- Texto superpuesto -->
+        <!-- <p style="position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); color: rgb(255, 255, 255); font-size: 50px; font-weight: bold;">
+            NO PIERDAS TÚ OPORTUNIDAD
+        </p> -->
+        <!-- <a class="boton bg-success" href="#zonas-arqueologicas" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: red; color: white; font-size: 30px; font-weight: bold; padding: 10px 20px; border: none; cursor: pointer;">
+            SABER MÁS..
+        </a> -->
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Titulo-->
+    <div class="titulo text-center py-3">
+        <div style="
+            width: 35%;
+            height: 1px;
+            background-color: black;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 12px; /* Ajusta el margen derecho según sea necesario */
+        "></div> 
+        <h1 id="zonas-arqueologicas" style="display: inline-block; margin-bottom: 0;"> Zonas Arqueológicas</h1>
+        <div style="
+            width: 35%;
+            height: 1px;
+            background-color: black;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px; /* Ajusta el margen izquierdo según sea necesario */
+        "></div> 
+    </div>
+    <!--  Salto de linea-->
+
+    <!-- contenedor -->
+    <center>
+        <div class="container column mb-5">
+            <div class="row">
+                <!-- Seccion de tarjeta 1 de marcas -->
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/Chichen.jpg" class="card-img-top" alt="imagen de tarjeta">
+                        <div class="card-body">
+                            <center><h4>CHICHÉN ITZÁ</h4></center>
+                            <p>
+                                Chichén Itzá es uno de los sitios arqueológicos más icónicos de México
+                            </p>
+                            <div style="display: flex; flex-direction: column;">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#miModal" >Información</a>
+                                <!-- <a href="#">Realidad Aumentada</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Modal para información -->
+                    <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class=" bg-success modal-header" style="align-items: center;">
+                                    <h5 class="modal-title" id="miModalLabel" style="color: white;">CHICHÉN ITZÁ</h5>
+                                    <button id="detenerTexto1" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div id="contenedorTarjetas" class="modal-body">
+                                    <!-- Carrusel de Cards -->
+                                    <div id="carruselCards" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <!-- Card 1 -->
+                                            <div class="carousel-item active">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="/img/Chichen.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <p class="card-text" style="text-align: left;">
+                                                            Chichén Itzá fue un importante centro político, religioso y económico 
+                                                            de la civilización maya entre los siglos VI y XIII. Su arquitectura refleja una 
+                                                            fusión única entre las influencias mayas y toltecas.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Card 2 -->
+                                            <div class="carousel-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="/img/chichen2.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <p class="card-text" style="text-align: left;">
+                                                            El Castillo, con su escalera de 91 peldaños en cada lado, 
+                                                            más uno adicional en la plataforma superior, representa el calendario maya con precisión. 
+                                                            El juego de pelota, observatorios y cenotes sagrados.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Card 3 -->
+                                            <div class="carousel-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="/img/serpiente.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <p class="card-text" style="text-align: left;">
+                                                            cuando el sol se pone, los rayos de sol crean sombras y  
+                                                            A medida que el sol se mueve, la sombra parece desplazarse hacia abajo,
+                                                            dando la impresión de que la serpiente está descendiendo del cielo.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Puedes agregar más Cards aquí -->
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carruselCards" role="button" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carruselCards" role="button" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </a>
+                                    </div>
+                                    <!-- Fin del Carrusel de Cards -->
+                                </div>   
+
+                                <!-- Modelado 3D -->
+                                <div id="contenedorRealidadAumentada" style="display: none; width: 100%; height: 500px;">
+                                    <model-viewer
+                                    src="/img 3D/chichen_itza_pyramid_3d_reconstruction.glb"
+                                    alt="Descripción del modelo 3D CHICHÉN ITZÁ"
+                                    auto-rotate
+                                    camera-controls
+                                    style="width: 100%; height: 100%;"
+                                    ></model-viewer>
+                                </div>
+                                <!-- Fin de modelado 3D --> 
+
+                                <div class=" modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <!-- Botón para volver a las tarjetas -->
+                                    <button id="btnVolverTarjetas" class="btn btn-warning" style="display: none;">Volver a las Tarjetas</button>
+                                    <button id="btnMostrarRealidadAumentada" class="btn btn-warning">Realidad Aumentada</button>
+                                    <button id="detenerTexto" class="btn btn-danger">Detener</button>
+                                    <button id="reproducirTexto-chichen" class="btn btn-primary">Reproducir</button>
+                                    <button type="button" class=" bg-success btn btn-primary">Ubicación</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin de modal para información -->
+        
+                <!-- Seccion de tarjeta 2 de marcas -->
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/mayapan.jpg" class="card-img-top" alt="imagen de tarjeta">
+                        <div class="card-body">
+                            <center><h4>MAYAPÁN</h4></center>
+                            <p>
+                                Mayapán fue la última gran ciudad amurallada de los mayas en la península de Yucatán
+                            </p>
+                            <div style="display: flex; flex-direction: column;">
+                                <a href="#">Información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Seccion de tarjeta 3 de marcas -->
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/coba.jpg" class="card-img-top" alt="imagen de tarjeta">
+                        <div class="card-body">
+                            <center><h4>COBÁ</h4></center>
+                            <p>
+                                Cobá es una antigua ciudad maya ubicada en la selva de la península de Yucatán
+                            </p>
+                            <div style="display: flex; flex-direction: column;">
+                                <a href="#">Información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row">
+                <!-- Seccion de tarjeta 4 de marcas -->
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/tulum.jpg" class="card-img-top" alt="imagen de tarjeta">
+                        <div class="card-body">
+                            <center><h4>TULUM</h4></center>
+                            <p>
+                                Tulum es una antigua ciudad costera maya en la Riviera Maya
+                            </p>
+                            <div style="display: flex; flex-direction: column;">
+                                <a href="#">Información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Seccion de tarjeta 5 de marcas -->
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/ake.jpg" class="card-img-top" alt="imagen de tarjeta">
+                        <div class="card-body">
+                            <center><h4>AKÉ</h4></center>
+                            <p>
+                                Aké es un sitio arqueológico maya menos conocido en la península de Yucatáns
+                            </p>
+                            <div style="display: flex; flex-direction: column;">
+                                <a href="#">Información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Seccion de tarjeta 6 de marcas -->
+                <div class="col-md-4 mb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/img/KABÁH.jpg" class="card-img-top" alt="imagen de tarjeta">
+                        <div class="card-body">
+                            <center><h4>KABÁH</h4></center>
+                            <p>
+                                Kabáh es un sitio arqueológico maya en la región de Puuc, conocido por su arquitectura
+                            </p>
+                            <div style="display: flex; flex-direction: column;">
+                                <a href="#">Información</a>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+  </main>
+    <!-- texto 1-->
+    <p id="textoModal-chichen" class="texto-modal-oculto">
+        Chichén Itzá fue un importante centro político, religioso y económico 
+        de la civilización maya entre los siglos VI y XIII. Su arquitectura refleja una 
+        fusión única entre las influencias mayas y toltecas.
+
+        El Castillo, con su escalera de 91 peldaños en cada lado, 
+        más uno adicional en la plataforma superior, representa el calendario maya con precisión. 
+        El juego de pelota, observatorios y cenotes sagrados.
+
+        cuando el sol se pone, los rayos de sol crean sombras y  
+        A medida que el sol se mueve, la sombra parece desplazarse hacia abajo,
+        dando la impresión de que la serpiente está descendiendo del cielo.
+    </p>
+    <!-- fin de texto 1 -->
+
+    <!-- texto 2-->
+    <p id="textoModal-mayapan" class="texto-modal-oculto">
+        Chichén Itzá fue un importante centro político, religioso y económico 
+        de la civilización maya entre los siglos VI y XIII. Su arquitectura refleja una 
+        fusión única entre las influencias mayas y toltecas.
+
+        El Castillo, con su escalera de 91 peldaños en cada lado, 
+        más uno adicional en la plataforma superior, representa el calendario maya con precisión. 
+        El juego de pelota, observatorios y cenotes sagrados.
+
+        cuando el sol se pone, los rayos de sol crean sombras y  
+        A medida que el sol se mueve, la sombra parece desplazarse hacia abajo,
+        dando la impresión de que la serpiente está descendiendo del cielo.
+    </p>
+    <!-- fin de texto 2 -->
+
+    <!-- texto 3-->
+    <p id="textoModal-coba" class="texto-modal-oculto">
+        Chichén Itzá fue un importante centro político, religioso y económico 
+        de la civilización maya entre los siglos VI y XIII. Su arquitectura refleja una 
+        fusión única entre las influencias mayas y toltecas.
+
+        El Castillo, con su escalera de 91 peldaños en cada lado, 
+        más uno adicional en la plataforma superior, representa el calendario maya con precisión. 
+        El juego de pelota, observatorios y cenotes sagrados.
+
+        cuando el sol se pone, los rayos de sol crean sombras y  
+        A medida que el sol se mueve, la sombra parece desplazarse hacia abajo,
+        dando la impresión de que la serpiente está descendiendo del cielo.
+    </p>
+    <!-- fin de texto 3 -->
+
+    <!-- texto 4-->
+    <p id="textoModal-tulum" class="texto-modal-oculto">
+        Chichén Itzá fue un importante centro político, religioso y económico 
+        de la civilización maya entre los siglos VI y XIII. Su arquitectura refleja una 
+        fusión única entre las influencias mayas y toltecas.
+
+        El Castillo, con su escalera de 91 peldaños en cada lado, 
+        más uno adicional en la plataforma superior, representa el calendario maya con precisión. 
+        El juego de pelota, observatorios y cenotes sagrados.
+
+        cuando el sol se pone, los rayos de sol crean sombras y  
+        A medida que el sol se mueve, la sombra parece desplazarse hacia abajo,
+        dando la impresión de que la serpiente está descendiendo del cielo.
+    </p>
+    <!-- fin de texto 4 -->
+
+    <!-- texto 5-->
+    <p id="textoModal-ake" class="texto-modal-oculto">
+        Chichén Itzá fue un importante centro político, religioso y económico 
+        de la civilización maya entre los siglos VI y XIII. Su arquitectura refleja una 
+        fusión única entre las influencias mayas y toltecas.
+
+        El Castillo, con su escalera de 91 peldaños en cada lado, 
+        más uno adicional en la plataforma superior, representa el calendario maya con precisión. 
+        El juego de pelota, observatorios y cenotes sagrados.
+
+        cuando el sol se pone, los rayos de sol crean sombras y  
+        A medida que el sol se mueve, la sombra parece desplazarse hacia abajo,
+        dando la impresión de que la serpiente está descendiendo del cielo.
+    </p>
+    <!-- fin de texto 5 -->
+
+    <!-- texto 6-->
+    <p id="textoModal-kabah" class="texto-modal-oculto">
+        Chichén Itzá fue un importante centro político, religioso y económico 
+        de la civilización maya entre los siglos VI y XIII. Su arquitectura refleja una 
+        fusión única entre las influencias mayas y toltecas.
+
+        El Castillo, con su escalera de 91 peldaños en cada lado, 
+        más uno adicional en la plataforma superior, representa el calendario maya con precisión. 
+        El juego de pelota, observatorios y cenotes sagrados.
+
+        cuando el sol se pone, los rayos de sol crean sombras y  
+        A medida que el sol se mueve, la sombra parece desplazarse hacia abajo,
+        dando la impresión de que la serpiente está descendiendo del cielo.
+    </p>
+    <!-- fin de texto 6 -->
+
+  <footer class="bg-success text-white py-3">
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <p>Derechos de autor © 2023 Thiago Ramirez Soberano "IDYGS72"</p>
+            </div>
+            <div class="col-md-3">
+                <h5>Escuela</h5>
+                <p>. Universidad Tecnológica de cancún</p>
+            </div>
+            <div class="col-md-3">
+                <h5>Materia</h5>
+                <p>. Metodologia para el Desarrollo de Proyectos</p>
+            </div>
+            <div class="col-md-3">
+                <h5>Profesor</h5>
+                <p>. José Mario Gutiérrez Pérez</p>
+            </div>
+            <div class="col-md-3">
+                <h5>Carrera</h5>
+                <p>. Ingenieria en Desarrollo de Software Multiplataforma</p>
+            </div>
+        </div>
+    </div>
+</footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script src="/Js/texto.js"></script>
+  <!-- modelado 3d -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer@2.0.0/dist/model-viewer.js"></script>
+</body>
+
+</html>
